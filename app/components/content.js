@@ -9,19 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var content_1 = require('./content');
-var MyApp = (function () {
-    function MyApp() {
+var Content = (function () {
+    function Content() {
     }
-    MyApp = __decorate([
+    Content = __decorate([
         core_1.Component({
-            template: "\n    <div class=\"header\"></div>\n        <div class=\"container\">\n            <sidebar></sidebar>\n            <content></content>\n        </div>\n    ",
-            selector: 'my-app',
-            directives: [content_1.Content]
+            selector: "content",
+            template: "<h1>Content</h1>"
         }), 
         __metadata('design:paramtypes', [])
-    ], MyApp);
-    return MyApp;
+    ], Content);
+    return Content;
 }());
-exports.MyApp = MyApp;
-//# sourceMappingURL=my-app.js.map
+exports.Content = Content;
+//# sourceMappingURL=content.js.map
